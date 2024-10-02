@@ -1,8 +1,9 @@
 import { IoCheckmarkCircleOutline, IoEllipsisHorizontalOutline, IoReorderTwoOutline } from 'react-icons/io5';
+import { TaskStatus } from '../../interfaces';
 
 interface Props {
   title: string;
-  value: 'pending' | 'in-progress' | 'done';
+  value: TaskStatus
 }
 
 
